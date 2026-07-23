@@ -1,0 +1,13 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="160" rx="28" fill="#FFF8EA"/>
+  <rect x="18" y="18" width="124" height="124" rx="22" fill="#F2D592" stroke="#C79A2B" stroke-width="4"/>
+  <circle cx="80" cy="74" r="34" fill="#C79A2B"/>
+  <path d="M58 62C58 49.85 67.85 40 80 40C92.15 40 102 49.85 102 62V70H58V62Z" fill="#8C5A16"/>
+  <rect x="64" y="78" width="32" height="20" rx="8" fill="#FFF8EA"/>
+  <path d="M58 70H102" stroke="#8C5A16" stroke-width="4" stroke-linecap="round"/>
+  <path d="M62 96C68 106 74 110 80 110C86 110 92 106 98 96" stroke="#8C5A16" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="69" cy="72" r="4" fill="#FFF8EA"/>
+  <circle cx="91" cy="72" r="4" fill="#FFF8EA"/>
+  <path d="M76 82C76 82 80 86 84 82" stroke="#8C5A16" stroke-width="3" stroke-linecap="round"/>
+  <text x="80" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#8C5A16">Ganesha</text>
+</svg>
