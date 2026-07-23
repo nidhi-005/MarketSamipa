@@ -10,6 +10,22 @@ body,
   min-height: 100%;
   background: #fbf7ee;
   font-family: "Manrope", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  line-height: 1.5;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .srv-chip {
@@ -58,4 +74,79 @@ body,
 ::selection {
   background: #c79a2b;
   color: #0b2340;
+}
+
+@media (max-width: 680px) {
+  .site-header-inner {
+    padding: 12px 14px;
+  }
+
+  .site-header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-shell {
+    padding: 40px 14px 36px;
+  }
+
+  .hero-pill {
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .hero-search-box {
+    padding: 10px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-mic {
+    align-self: center;
+  }
+
+  .hero-input-wrap {
+    padding: 6px 4px;
+  }
+
+  .hero-listen {
+    justify-content: center;
+    width: 100%;
+    padding: 10px 12px;
+  }
+
+  .hero-quick-items {
+    gap: 8px;
+  }
+
+  .chip-row {
+    padding-bottom: 4px;
+  }
+
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-card-actions {
+    flex-direction: column;
+  }
+
+  .view-products,
+  .call-shop {
+    width: 100%;
+  }
+
+  .call-shop {
+    min-height: 44px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+  }
 }

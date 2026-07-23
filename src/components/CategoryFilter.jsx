@@ -5,7 +5,7 @@ import { CATEGORIES } from "../data/shops";
 export default function CategoryFilter({ activeCategory, setActiveCategory, fz }) {
   return (
     <section style={{ maxWidth: 1180, margin: "0 auto", padding: "32px 20px 6px" }}>
-      <div style={{ display: "flex", gap: 10, overflowX: "auto", paddingBottom: 8 }}>
+      <div className="chip-row" style={{ display: "flex", gap: 10, overflowX: "auto", paddingBottom: 8 }}>
         <button
           onClick={() => setActiveCategory(null)}
           className="srv-chip"

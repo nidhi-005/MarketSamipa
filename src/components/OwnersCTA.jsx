@@ -10,11 +10,11 @@ export default function OwnersCTA({ onListShop, onSeeShopScreen }) {
         <p style={{ color: "rgba(251,247,238,0.75)", fontSize: 15, lineHeight: 1.6, maxWidth: 540, margin: "0 auto 24px" }}>
           List your products for a flat monthly subscription — no commission, ever. Updating stock takes one tap, or just say it out loud.
         </p>
-        <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
-          <button onClick={onListShop} className="srv-btn-gold" style={{ background: TOKENS.gold, color: TOKENS.night, border: "none", borderRadius: 10, padding: "13px 24px", fontSize: 14, fontWeight: 800, cursor: "pointer" }}>
+        <div className="cta-buttons" style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
+          <button onClick={onListShop} className="srv-btn-gold cta-primary" style={{ background: TOKENS.gold, color: TOKENS.night, border: "none", borderRadius: 10, padding: "13px 24px", fontSize: 14, fontWeight: 800, cursor: "pointer" }}>
             List your shop
           </button>
-          <button onClick={onSeeShopScreen} style={{ background: "transparent", color: TOKENS.goldLight, border: `1.5px solid ${TOKENS.gold}`, borderRadius: 10, padding: "13px 24px", fontSize: 14, fontWeight: 800, cursor: "pointer" }}>
+          <button onClick={onSeeShopScreen} className="cta-secondary" style={{ background: "transparent", color: TOKENS.goldLight, border: `1.5px solid ${TOKENS.gold}`, borderRadius: 10, padding: "13px 24px", fontSize: 14, fontWeight: 800, cursor: "pointer" }}>
             See the shop-owner screen
           </button>
         </div>

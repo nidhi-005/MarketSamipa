@@ -4,10 +4,10 @@ import Logo from "./Logo";
 
 export default function Header({ mode, setMode, easyMode, setEasyMode }) {
   return (
-    <header style={{ background: TOKENS.night, position: "sticky", top: 0, zIndex: 40, borderBottom: `1px solid ${TOKENS.royal}` }}>
-      <div style={{ maxWidth: 1180, margin: "0 auto", padding: "10px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+    <header className="site-header" style={{ background: TOKENS.night, position: "sticky", top: 0, zIndex: 40, borderBottom: `1px solid ${TOKENS.royal}` }}>
+      <div className="site-header-inner" style={{ maxWidth: 1180, margin: "0 auto", padding: "10px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
         <Logo size={0.6} />
-        <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+        <div className="site-header-actions" style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
           <div style={{ display: "flex", background: "rgba(255,255,255,0.08)", borderRadius: 999, padding: 3 }}>
             <button
               onClick={() => setMode("resident")}
